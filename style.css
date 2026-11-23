@@ -71,3 +71,37 @@ button:hover{
     background-color: #fee2e2;
     color: #991b1b;
 }
+
+@media (max-width: 480px){
+    body{
+        min-height: 100vh;
+        padding: 16px;
+    }
+    body > div{
+        padding: 24px;
+        border-radius: 12px;
+    }
+    h1{
+        margin-bottom: 20px;
+        font-size: 1.65rem;
+    }
+}
+
+@media (max-width: 360px){
+    body{
+        padding: 12px;
+    }
+    body > div{
+        padding: 18px;
+    }
+    h1{
+        font-size: 1.45rem;
+    }
+    input, button{
+        padding: 11px 12px;
+    }
+    #result{
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
